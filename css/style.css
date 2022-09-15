@@ -1,0 +1,53 @@
+  .navbar {
+    overflow: hidden;
+    background-color: darkslategrey;
+    outline:auto;
+    
+
+  }
+
+  .navbar a {
+    float: left;
+    padding: 14px 15px;
+    background-color: darkslategray;
+    color: beige;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color:beige;  
+    color:darkslategrey;
+  }
+  
+
+  .navbar a.active {
+    background-color:beige;
+    color: darkslategray;
+  }
+
+  h2 {
+    font-family: sans-serif;
+  }
+
+  .small-image {
+    height: 180px;
+    width: 250px;
+    float: right;
+    padding: 15px;
+  }
+
+  .container {
+    display: flex;
+    align-items: right;
+    padding: 0px 500px;
+  }
+
+  .profile-picture {
+    max-height: 400px;
+  }
+
+  .logo {
+    float:right;
+    max-height: 100px;    
+  }
