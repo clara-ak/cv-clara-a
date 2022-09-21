@@ -37,12 +37,6 @@
     outline: auto;
   }
 
-  .container {
-    display: flex;
-    align-items: right;
-    padding: 0px 500px;
-  }
-
   .profile-picture {
     height: 550px;
     width: auto;
