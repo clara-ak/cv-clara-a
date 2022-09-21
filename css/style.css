@@ -34,7 +34,7 @@
   .f1-img {
     max-height: 300px;
     float: right;
-    padding: 15px;
+    outline: auto;
   }
 
   .container {
@@ -46,6 +46,7 @@
   .profile-picture {
     height: 550px;
     width: auto;
+    outline: auto;
   }
 
   .logo {
@@ -66,6 +67,7 @@
     float:right;
     max-height: 400px;
     margin: 10px;
+    outline: auto;
   }
 
   .zenith-logo {
@@ -76,4 +78,14 @@
 
   h3{
     padding-top: 280px;
+  }
+
+  .kalleanka-img{
+    float:right;
+    height: 400px;
+    width: auto;
+    outline: auto;
+    outline-width: 5px;
+    outline-color: black;
+    margin-right: 100px;
   }
