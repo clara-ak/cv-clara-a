@@ -4,6 +4,7 @@
     outline:auto;
   }
 
+  /*Definerar hur varje länk ska se ut i navigationsbaren*/
   .navbar a {
     float: left;
     padding: 14px 15px;
@@ -13,6 +14,8 @@
     font-size: 17px;
     text-decoration: none;
   }
+
+  /*Ändrar bakgrundsfärg och textfärg när man håller musen ovanför länkarna i nav-baren*/
   .navbar a:hover {
     background-color:beige;  
     color:darkslategrey;
@@ -25,12 +28,11 @@
   }
 
   h2 {
-    font-family: sans-serif;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
-  .small-image {
-    height: 180px;
-    width: 250px;
+  .f1-img {
+    max-height: 300px;
     float: right;
     padding: 15px;
   }
@@ -42,7 +44,8 @@
   }
 
   .profile-picture {
-    max-height: 400px;
+    height: 550px;
+    width: auto;
   }
 
   .logo {
@@ -50,10 +53,27 @@
     max-height: 300px;   
     padding-right: 20px; 
   }
+
   .footer-img {
-    padding-top: 225px;
+    padding-top: 600px;
   }
 
   .intrests-list li {
     font-size: 20px;
+  }
+
+  .camping-img {
+    float:right;
+    max-height: 400px;
+    margin: 10px;
+  }
+
+  .zenith-logo {
+    height: 300px;
+    width: auto;
+    float:right;
+  }
+
+  h3{
+    padding-top: 280px;
   }
