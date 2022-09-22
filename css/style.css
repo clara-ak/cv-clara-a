@@ -21,7 +21,7 @@
     color:darkslategrey;
   }
   
-
+  /*bakgrundsfärg och textfärg på länken man är inne på*/
   .navbar a.active {
     background-color:beige;
     color: darkslategray;
@@ -47,10 +47,6 @@
     float:right;
     max-height: 300px;   
     padding-right: 20px; 
-  }
-
-  .footer-img {
-    padding-top: 600px;
   }
 
   .intrests-list li {
@@ -80,6 +76,9 @@
     width: auto;
     outline: auto;
     outline-width: 5px;
-    outline-color: black;
     margin-right: 100px;
+  }
+
+  .footer-img {
+    margin-top: 400px;
   }
