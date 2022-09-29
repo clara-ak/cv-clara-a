@@ -1,3 +1,7 @@
+body {
+  background-color:cornsilk;
+}  
+
   .navbar {
     overflow: hidden;
     background-color: darkslategrey;
@@ -64,6 +68,8 @@
     height: 300px;
     width: auto;
     float:right;
+    outline: auto;
+    margin: 5px;
   }
 
   h3{
