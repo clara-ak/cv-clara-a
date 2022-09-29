@@ -1,5 +1,5 @@
 body {
-  background-color:cornsilk;
+  background-color:snow;
 }  
 
   .navbar {
@@ -68,7 +68,6 @@ body {
     height: 300px;
     width: auto;
     float:right;
-    outline: auto;
     margin: 5px;
   }
 
